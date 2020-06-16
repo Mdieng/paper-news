@@ -10,11 +10,11 @@
 
 <ion-content fullscreen>
   <ion-list>
-    <ion-list-header>
-      A LA UNE
+    <ion-list-header color="light">
+      <h2 color="warning">A LA UNE</h2>
     </ion-list-header>
 
-    <ion-card>
+    <ion-card (click)="viewArticle()">
       <img src="assets/images/covid-19.jpg" />
       <ion-card-header>
         <ion-card-subtitle color="warning">A LA UNE • Actualité • Dakar • santé • societe</ion-card-subtitle>
@@ -25,7 +25,7 @@
       </ion-card-content> -->
     </ion-card>
 
-    <ion-item>
+    <ion-item (click)="viewArticle()">
       <ion-avatar slot="start">
         <img src="assets/images/grayscale_tech.jpg">
       </ion-avatar>
@@ -36,7 +36,7 @@
       </ion-label>
     </ion-item>
 
-    <ion-item>
+    <ion-item (click)="viewArticle()">
       <ion-avatar slot="start">
         <img src="assets/images/sport.jpg">
       </ion-avatar>
@@ -47,68 +47,68 @@
       </ion-label>
     </ion-item>
 
-    <ion-item>
+    <ion-item (click)="viewArticle()">
       <ion-avatar slot="start">
-        <img src="assets/images/grayscale_tech.jpg">
+        <img src="assets/images/economie.jpg">
       </ion-avatar>
       <ion-label>
-        <h2 color="warning">Actualité • Technologie </h2>
-        <h3>Technologie</h3>
-        <p>Technologie : L’Artp annonce le lancement très prochainement de la 4G</p>
+        <h2 color="warning">Actualité • Economie </h2>
+        <h3>Economie</h3>
+        <p>Sénégal: La BAD va investir 46 milliards francs Cfa pour financer le parc des technologies numériques</p>
       </ion-label>
     </ion-item>
 
-    <ion-item>
+    <ion-item (click)="viewArticle()">
       <ion-avatar slot="start">
-        <img src="assets/images/sport.jpg">
+        <img src="assets/images/education.jpg">
       </ion-avatar>
       <ion-label>
-        <h2 color="warning">Actualité • Sport</h2>
-        <h3>Sport</h3>
-        <p>Racisme : Le message coup de poing de Sadio Mané !</p>
+        <h2 color="warning">Actualité • Education</h2>
+        <h3>Education</h3>
+        <p>Télé-école pour sauver l’année scolaire: avons-nous pensé à la fracture numérique et à l’équation de l’électricité ?</p>
       </ion-label>
     </ion-item>
 
-    <ion-item>
+    <ion-item (click)="viewArticle()">
       <ion-avatar slot="start">
-        <img src="assets/images/grayscale_tech.jpg">
+        <img src="assets/images/r-sociaux.jpg">
       </ion-avatar>
       <ion-label>
-        <h2 color="warning">Actualité • Technologie </h2>
-        <h3>Technologie</h3>
-        <p>Technologie : L’Artp annonce le lancement très prochainement de la 4G</p>
+        <h2 color="warning">Actualité • Chronique </h2>
+        <h3>Chronique</h3>
+        <p>Jeunesse et Internet : quand les réseaux sociaux participent à la dégradation des mœurs au Sénégal.</p>
       </ion-label>
     </ion-item>
 
-    <ion-item>
+    <ion-item (click)="viewArticle()">
       <ion-avatar slot="start">
-        <img src="assets/images/sport.jpg">
+        <img src="assets/images/societe.jpg">
       </ion-avatar>
       <ion-label>
-        <h2 color="warning">Actualité • Sport</h2>
-        <h3>Sport</h3>
-        <p>Racisme : Le message coup de poing de Sadio Mané !</p>
+        <h2 color="warning">Actualité • Societé</h2>
+        <h3>Sociéte</h3>
+        <p>Placé en garde à vue : Cheikh Yérim Seck déféré demain mardi (média)</p>
       </ion-label>
     </ion-item>
-    <ion-item>
+    <ion-item (click)="viewArticle()">
       <ion-avatar slot="start">
-        <img src="assets/images/grayscale_tech.jpg">
+        <img src="assets/images/international.jpg">
       </ion-avatar>
       <ion-label>
-        <h2 color="warning">Actualité • Technologie </h2>
-        <h3>Technologie</h3>
-        <p>Technologie : L’Artp annonce le lancement très prochainement de la 4G</p>
+        <h2 color="warning">Actualité • International </h2>
+        <h3>International</h3>
+        <p>George Floyd et Derek Chauvin (Policier) se connaissaient et s’étaient déjà disputés</p>
       </ion-label>
     </ion-item>
 
-    <ion-item>
+    <ion-item (click)="viewArticle()">
       <ion-avatar slot="start">
-        <img src="assets/images/sport.jpg">
+        <img src="assets/images/divers.jpg">
       </ion-avatar>
       <ion-label>
-        <h2 color="warning">Actualité • Sport</h2>
-        <h3>Sport</h3>
-        <p>Racisme : Le message coup de poing de Sadio Mané !</p>
+        <h2 color="warning">Actualité • Faits-Divers</h2>
+        <h3>Faits-Divers</h3>
+        <p>Cambriolage en plein couvre-feu à Touba : 4 millions emportés par des malfrats</p>
       </ion-label>
     </ion-item>
     </ion-list>
