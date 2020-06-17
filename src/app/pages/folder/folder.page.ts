@@ -18,7 +18,7 @@ export class FolderPage implements OnInit {
   }
 
   viewArticle(){
-    this.navCtrl.navigateForward("/Detail");
+    this.navCtrl.navigateForward("/details");
   }
 
 }
