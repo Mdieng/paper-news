@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { NavController } from '@ionic/angular';
 
 @Component({
@@ -11,14 +11,14 @@ export class FolderPage implements OnInit {
   public folder: string;
 
   constructor(private activatedRoute: ActivatedRoute, 
-    public navCtrl: NavController) { }
+    public navCtrl: NavController, public route: Router) { }
 
   ngOnInit() {
     this.folder = this.activatedRoute.snapshot.paramMap.get('id');
   }
 
   viewArticle(){
-    this.navCtrl.navigateForward("/details");
+    this.navCtrl.navigateForward(["/details"]);
   }
 
 }
